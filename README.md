@@ -12,10 +12,10 @@ Flutter Recipes App is a mobile application built with Flutter that displays var
 ## App UI
 
 <div style='display: flex'>
-<img src="readme_images/home_page.png" width="360">
-<img src="readme_images/details_page_1.png" width="360">
-<img src="readme_images/details_page_2.png" width="360">
-<img src="readme_images/favorites_page.png" width="360">
+<img src="readme_images/home_page.png" width="342" height="740">
+<img src="readme_images/details_page_1.png" width="342" height="740">
+<img src="readme_images/details_page_2.png" width="342" height="740">
+<img src="readme_images/favorites_page.png" width="342" height="740">
 </div>
 
 ## Getting Started
