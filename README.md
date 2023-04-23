@@ -2,6 +2,12 @@
 
 Flutter Recipes App is a mobile application built with Flutter that displays various recipes in different categories. The app provides a user-friendly interface that allows users to browse through different recipes, view ingredients and instructions, and save their favorite recipes for future use.
 
+## Technologies Used
+
+- [Flutter](https://flutter.dev/)
+- [Riverpod](https://riverpod.dev/)
+- [Shared Preferences Package](https://pub.dev/packages/shared_preferences)
+
 ## Features
 
 - Browse different recipes
