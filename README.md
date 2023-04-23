@@ -11,10 +11,10 @@ Flutter Recipes App is a mobile application built with Flutter that displays var
 
 ## App UI
 
-![](https://1drv.ms/i/s!AmC24oh1zz5ojilukPpssIPEbscv?e=74ylG0)
-![](https://1drv.ms/i/s!AmC24oh1zz5ojih8A0PamFinr5kG?e=4gzlko)
-![](https://1drv.ms/i/s!AmC24oh1zz5ojid9AMYyOZvuIfrI?e=kv12XC)
-![](https://1drv.ms/i/s!AmC24oh1zz5ojipx9EIUXS_P5WxO?e=WRC6w2)
+![Home Page](readme_images/home_page.png)
+![Details Page 1](readme_images/details_page_1.png)
+![Details Page 2](readme_images/details_page_2.png)
+![Favorites Page](readme_images/favorites_page.png)
 
 ## Getting Started
 
