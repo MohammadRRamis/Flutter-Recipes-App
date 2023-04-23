@@ -1,7 +1,6 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:recipes/models/recipe.dart';
-
 export 'api_recipe.dart';
 
 int from = 0;
@@ -21,7 +20,7 @@ Future<List<Recipe>> fetchRecipes([String? searchTerm]) async {
     final response = await http.get(
       uri,
       headers: {
-        'X-RapidAPI-Key': '5df48ef477msh74cb6a092019485p19c505jsnfb110a147dfa',
+        'X-RapidAPI-Key': 'ed0e57c761msh76425f3b745c3c2p1ea35fjsn94b68e29d31e',
         'X-RapidAPI-Host': 'tasty.p.rapidapi.com',
       },
     );
@@ -43,7 +42,6 @@ Future<List<Recipe>> fetchRecipes([String? searchTerm]) async {
         try {
           rating = (recipe['user_ratings']['score'] * 5).toStringAsFixed(1);
         } catch (e) {
-          print(e.toString());
           rating = "No Rating";
         }
 
@@ -57,12 +55,12 @@ Future<List<Recipe>> fetchRecipes([String? searchTerm]) async {
         }
 
         recipeObjects.add(Recipe(
-            name: name,
-            image: image,
-            rating: rating,
-            ingredients: ingredients,
-            instructions: instructions,
-            isFavorite: false));
+          name: name,
+          image: image,
+          rating: rating,
+          ingredients: ingredients,
+          instructions: instructions,
+        ));
       }
 
       if (searchTerm == null) {
@@ -74,7 +72,6 @@ Future<List<Recipe>> fetchRecipes([String? searchTerm]) async {
       throw Exception('Failed to load data');
     }
   } catch (e) {
-    print(e.toString());
     throw Exception('Failed to load data');
   }
 }

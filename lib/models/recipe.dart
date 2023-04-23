@@ -4,15 +4,14 @@ class Recipe {
   final String rating;
   final List<dynamic> ingredients;
   final List<dynamic> instructions;
-  bool isFavorite;
 
-  Recipe(
-      {required this.image,
-      required this.name,
-      required this.rating,
-      required this.ingredients,
-      required this.instructions,
-      required this.isFavorite});
+  Recipe({
+    required this.image,
+    required this.name,
+    required this.rating,
+    required this.ingredients,
+    required this.instructions,
+  });
 
   Map<String, dynamic> toJson() => {
         'image': image,
@@ -20,7 +19,6 @@ class Recipe {
         'rating': rating,
         'ingredients': ingredients,
         'instructions': instructions,
-        'isFavorite': isFavorite,
       };
 
   //Make a fromJson method to convert the json to a Recipe object
@@ -31,7 +29,6 @@ class Recipe {
       rating: json['rating'],
       ingredients: json['ingredients'],
       instructions: json['instructions'],
-      isFavorite: json['isFavorite'],
     );
   }
 }
