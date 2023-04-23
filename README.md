@@ -24,7 +24,7 @@ Flutter Recipes App is a mobile application built with Flutter that displays var
 <img src="readme_images/favorites_page.png" width="342" height="740">
 </div>
 
-## Getting Started
+## Running the App
 
 To get started with Flutter Recipes App, follow these steps:
 
@@ -46,7 +46,7 @@ flutter pub get
 flutter run
 ```
 
-## Contributing
+## Contributions
 
 Contributions are welcome! If you find any bugs or have suggestions for new features, please create an issue on the GitHub repository or submit a pull request.
 
